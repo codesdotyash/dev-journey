@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-logo">MIS</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            |<a href="student.html">Student</a>
+            |<a href="add.html">Add Studnet</a>
+            |<a href="contact.html">Contact</a>
+        </div>
+    </nav><br>
+    <hr>
+
+    <section class="form">
+        <form>
+            <fieldset>
+                <legend>About student</legend>
+                <label for="name">name</label>
+                <input tpye="text" id="name" class="name" placeholder="Rohan" pattern="[A-Za-z]+" required><br></input>
+                <label for="email">name</label>
+                <input tpye="email" id="email" class="email" placeholder="abc@gmail.com" required><br></input>
+                <label>
+                    <input type="radio" name="gender" value="male"> Male</input>
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="female"> Female</input>
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="other"> Other</input>
+                </label><br>
+                <label>
+                    <input type="checkbox" name="streme" value="SCIENCE"> SCIENCE</input>
+                </label>
+
+                <label>
+                    <input type="checkbox" name="streme" value="COMMERCE"> COMMERCE</input>
+                </label>
+
+                <label>
+                    <input type="checkbox" name="streme" value="ARTS"> ARTS</input>
+                </label><br>
+                <label for="class">Select your class:</label>
+
+                <select id="class" name="class">
+                    <option value="12th">11th</option>
+                    <option value="12th">12th</option>
+
+                </select>
+                <BR>
+                <lable for="mark">Mark is previous class</lable>
+                <input type="number" id="mark" class="mark" placeholder="80%"></input>
+                <br>
+                <lable for="comment">Comment</lable>
+                <input type="text" id="comment" class="comment" placeholder="About you"><br></input>
+                <button type="submit">submit</button>
+                <button type="reset">click here to reset</button><br>
+            </fieldset>
+        </form>
+    </section>
+    <hr>
+    <footer class="details">
+        ©Maitree International School| 2024 cbse
+
+    </footer>
+</body>
+
+</html>
